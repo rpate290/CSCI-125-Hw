@@ -1,18 +1,17 @@
 # CSCI-125-Hw
-//Hw part 2
+//Hw part 3
 package hw;
+import java.util.Scanner;
 
-public class Class2 {
+public class Class3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-int a,b,c;
-a=4;
-b=8;
-c=a+b;
-System.out.println("The Sum of variables a and b is "+c);
-
+		Scanner input= new Scanner(System.in);
+		//getting input for integer value
+		System.out.println("Enter integer");
+		int x= input.nextInt();
+		System.out.println("Integer entered is "+x);
 	}
 
 }
-
